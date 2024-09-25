@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
 import Navigation from "./Navigation";
 import Profile from "./Profile";
@@ -7,7 +8,8 @@ function UserProfilePage(){
     //Initialize state for user data
     const [userData, setUserData] = useState({
         name: 'Juan Dela Cruz', 
-        email: 'juan@gmail.com'
+        email: 'juan@gmail.com',
+        username: 'jdcpogi2024'
     });
 
     const handleUpdate = (updatedInfo) => {
@@ -18,7 +20,6 @@ function UserProfilePage(){
     };
 
     
-        
 
     return (
         <div>
