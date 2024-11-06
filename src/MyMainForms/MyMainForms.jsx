@@ -9,7 +9,7 @@ const MyMainForms = () => {
             <h1>React Forms App</h1>
             <nav>
                 <ul>
-                    <li><Link to="basic-form"></Link></li>
+                    <li><Link to="basic-form">Basic Form</Link></li>
                 </ul>
             </nav>
             <Routes>
