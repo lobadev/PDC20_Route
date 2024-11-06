@@ -1,0 +1,24 @@
+import React from "react";
+import {Routes, Route, Link} from 'react-router-dom';
+
+import BasicForms from "./BasicForms";
+
+const MyMainForms = () => {
+    return (
+        <div>
+            <h1>React Forms App</h1>
+            <nav>
+                <ul>
+                    <li><Link to="basic-form"></Link></li>
+                </ul>
+            </nav>
+            <Routes>
+                <Route path="basic-form" element={<BasicForms/>}/>
+            </Routes>
+
+        </div>
+
+    );
+}
+
+export default MyMainForms;

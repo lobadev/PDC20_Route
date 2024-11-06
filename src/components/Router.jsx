@@ -7,6 +7,7 @@ import MyHome from './MyHome';
 import MyProfile from './MyProfile';
 import Nav from './Nav';
 import ContactUs from './ContactUs';
+import MyMainForms from '../MyMainForms/MyMainForms';
 
 function Routing(){
     return (
@@ -17,6 +18,7 @@ function Routing(){
                     <Route path="/" element={<MyHome />} />
                     <Route path="/profile" element={<MyProfile />} />
                     <Route path="/contact" element={<ContactUs />} />
+                    <Route path="/mymainforms/*" element={<MyMainForms/>}/>
                 </Routes>
             </div>
         </Router>
